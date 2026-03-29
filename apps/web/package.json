@@ -1,0 +1,27 @@
+{
+  "name": "@lpna/web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@elysiajs/eden": "^1.3.4",
+    "@lpna/shared": "file:../../packages/shared",
+    "@solidjs/router": "^0.16.1",
+    "@solidjs/start": "^1.1.0",
+    "@tanstack/solid-query": "^5.74.4",
+    "arktype": "^2.2.0",
+    "elysia": "^1.3.4",
+    "solid-js": "^1.9.6",
+    "vinxi": "^0.5.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^6.3.1"
+  }
+}

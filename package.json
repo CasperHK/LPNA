@@ -1,0 +1,14 @@
+{
+  "name": "lpna",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "typecheck": "npm run typecheck --workspace=packages/shared && npm run typecheck --workspace=apps/web",
+    "typecheck:shared": "npm run typecheck --workspace=packages/shared",
+    "typecheck:web": "npm run typecheck --workspace=apps/web"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}
